@@ -1,77 +1,94 @@
-  Test Plan
-  1. Objective
-  The objective of this test plan is to ensure thorough testing of the Online Shopping application, covering both the Admin Interface and User Interface, to validate its functionality, usability, and performance.
-  
-  2. Scope
-  This test plan will encompass testing of all features and functionalities as outlined in the project overview, including but not limited to:
-  
-  Admin Interface features such as adding/editing/deleting manufacturers, categories, products, and currencies.
-  User Interface features such as product browsing, search, registration, login, shopping cart management, checkout, and order tracking.
-  3. Inclusions
-  Functional testing
-  Usability testing
-  Performance testing
-  Security testing
-  Compatibility testing
-  4. Test Environments
-  Browser: Chrome, Firefox, Safari
-  Operating Systems: Windows, macOS, Linux
-  Devices: Desktop, Laptop, Mobile (iOS, Android)
-  Development Environment: LAMP stack (Linux, Apache, MySQL, PHP)
-  5. Defect Reporting Procedure
-  Defects will be reported using the company's designated defect tracking tool.
-  Each defect report will include a detailed description, steps to reproduce, severity, and priority.
-  6. Test Strategy
-  A combination of manual and automated testing will be employed.
-  Test cases will cover positive and negative scenarios, edge cases, and stress testing.
-  Regression testing will be performed after each build/release.
-  7. Test Schedule
-  Test preparation and planning: [Start Date] - [End Date]
-  Test execution: [Start Date] - [End Date]
-  Defect reporting and tracking: Throughout the testing phase
-  Test closure: Upon completion of testing activities
-  8. Test Deliverables
-  Test plan document
-  Test cases
-  Test execution reports
-  Defect reports
-  9. Entry and Exit Criteria
-  Entry Criteria:
-  Completion of application development
-  Availability of test environment
-  Test data preparation
-  Exit Criteria:
-  Successful completion of all test cases
-  Defect closure rate above [Threshold]
-  Approval from project stakeholders
-  10. Test Execution
-  Entry Criteria:
-  Completion of test environment setup
-  Availability of test data
-  Approval of test plan
-  Exit Criteria:
-  Completion of all test cases
-  Generation of test execution reports
-  Approval of test execution results
-  11. Test Closure
-  Entry Criteria:
-  Completion of all test execution activities
-  Review and approval of test results
-  Closure of all defects
-  Exit Criteria:
-  Sign-off from project stakeholders
-  Archiving of test documentation and artifacts
-  12. Tools
-  Defect Tracking: [Tool Name]
-  Test Management: [Tool Name]
-  Automation: [Tool Name]
-  13. Risks and Mitigations
-  Risk: Insufficient test coverage
-  Mitigation: Regular reviews of test coverage and test plan updates.
-  Risk: Limited resources for testing
-  Mitigation: Prioritize testing activities and consider resource allocation adjustments.
-  14. Approvals
-  This test plan is approved by:
-  
-  Project Manager: [Name]
-  Date: [Date]
+# Test Plan
+
+## Objective
+The objective of this test plan is to ensure thorough testing of the Online Shopping application, covering both the Admin Interface and User Interface, to validate its functionality, usability, and performance.
+
+## Scope
+This test plan will encompass testing of all features and functionalities as outlined in the project overview, including but not limited to:
+- Admin Interface features such as adding/editing/deleting manufacturers, categories, products, and currencies.
+- User Interface features such as product browsing, search, registration, login, shopping cart management, checkout, and order tracking.
+
+## Inclusions
+- Functional testing
+- Usability testing
+- Performance testing
+- Security testing
+- Compatibility testing
+
+## Test Environments
+| Environment         | Details                                          |
+|---------------------|--------------------------------------------------|
+| Browser             | Chrome, Firefox, Safari                          |
+| Operating Systems   | Windows, macOS, Linux                            |
+| Devices             | Desktop, Laptop, Mobile (iOS, Android)           |
+| Development Environment | LAMP stack (Linux, Apache, MySQL, PHP)         |
+
+## Defect Reporting Procedure
+- Defects will be reported using the company's designated defect tracking tool.
+- Each defect report will include a detailed description, steps to reproduce, severity, and priority.
+
+## Test Strategy
+- A combination of manual and automated testing will be employed.
+- Test cases will cover positive and negative scenarios, edge cases, and stress testing.
+- Regression testing will be performed after each build/release.
+
+## Test Schedule
+- Test preparation and planning: [Start Date] - [End Date]
+- Test execution: [Start Date] - [End Date]
+- Defect reporting and tracking: Throughout the testing phase
+- Test closure: Upon completion of testing activities
+
+## Test Deliverables
+- Test plan document
+- Test cases
+- Test execution reports
+- Defect reports
+
+## Entry and Exit Criteria
+### Entry Criteria
+- Completion of application development
+- Availability of test environment
+- Test data preparation
+
+### Exit Criteria
+- Successful completion of all test cases
+- Defect closure rate above [Threshold]
+- Approval from project stakeholders
+
+## Test Execution
+### Entry Criteria
+- Completion of test environment setup
+- Availability of test data
+- Approval of test plan
+
+### Exit Criteria
+- Completion of all test cases
+- Generation of test execution reports
+- Approval of test execution results
+
+## Test Closure
+### Entry Criteria
+- Completion of all test execution activities
+- Review and approval of test results
+- Closure of all defects
+
+### Exit Criteria
+- Sign-off from project stakeholders
+- Archiving of test documentation and artifacts
+
+## Tools
+- Defect Tracking: [Tool Name]
+- Test Management: [Tool Name]
+- Automation: [Tool Name]
+
+## Risks and Mitigations
+- **Risk:** Insufficient test coverage
+  - **Mitigation:** Regular reviews of test coverage and test plan updates.
+- **Risk:** Limited resources for testing
+  - **Mitigation:** Prioritize testing activities and consider resource allocation adjustments.
+
+## Approvals
+This test plan is approved by:
+
+Project Manager: [Name]  
+Date: [Date]
