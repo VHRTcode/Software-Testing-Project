@@ -1,6 +1,7 @@
 # Software-Testing-Project
+
 <details>
-<summary><font color="blue"><b>Software Testing Project Information</b></font></summary>
+<summary><font color="#1589F0"><b>Software Testing Project Information</b></font></summary>
 
 
 # Software Testing Live Project (Theory)
@@ -229,5 +230,85 @@ This test plan is approved by:
 Project Manager: [Name]  
 Date: [Date]
 </details>
+
+<details>
+<summary>Test Case 1: Verify the Launch of Admin Interface</summary>
+
+**Test Steps**:
+1. Launch the browser.
+2. Capture the page title.
+
+**Expected Result**: The page title is "osCommerce Online Merchant Administration Tool".
+
+</details>
+
+<details>
+<summary>Test Case 2: Verify Mandatory Elements Availability in Admin Interface Home Page</summary>
+
+**Test Steps**:
+1. Launch the browser.
+2. Check the availability of "Create an Account", "Login", and "Shopping Cart" links.
+
+</details>
+
+<details>
+<summary>Test Case 3: Page Redirect Functionality (From Admin to User Interface) Before Login</summary>
+
+**Test Steps**:
+1. Launch the browser.
+2. Navigate to the Admin login page.
+3. Click the "Online CataLog" link.
+4. Capture the current URL.
+
+**Expected URL**: http://gcreddy.com/project/
+
+</details>
+
+<details>
+<summary>Test Case 4: Verify Admin Login with Valid Data</summary>
+
+**Test Steps**:
+1. Launch the browser.
+2. Navigate to the Admin login page.
+3. Enter valid username and password.
+4. Click the "Login" button.
+5. Capture the current URL.
+6. Check the availability of the "Logoff" link.
+
+**Expected Result**: 
+- URL: http://gcreddy.com/project/admin/index.php/
+- "Logoff" link is available.
+
+</details>
+
+<details>
+<summary>Test Case 5: Verify Admin Login with Invalid Data</summary>
+
+**Test Steps**:
+1. Launch the browser.
+2. Navigate to the Admin login page.
+3. Enter invalid username and password.
+4. Click the "Login" button.
+5. Capture the error message displayed on the screen.
+
+**Expected Message**: "Error: Invalid administrator login attempt."
+
+</details>
+
+<details>
+<summary>Test Case 6: Verify Admin Login Locking Functionality</summary>
+
+**Test Steps**:
+1. Launch the browser.
+2. Navigate to the Admin login page.
+3. Enter incorrect username and password for four times.
+4. Capture the error messages displayed.
+
+**Expected Results**: 
+- 1st to 3rd Iterations: "Error: Invalid administrator login attempt"
+- 4th Iteration: "Error: The maximum number of login attempts has been reached. Please try again in 5 minutes."
+
+</details>
+
 
 
